@@ -1,0 +1,5 @@
+comtypes==1.4.11
+pyjokes==0.8.3
+pypiwin32==223
+pyttsx3==2.98
+pywin32==310

@@ -1,0 +1,110 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hey", "How are you", "Is anyone there?", "Hello", "Good day"],
+      "responses": [
+        "Hello! I am Sahayak, your mental health companion. How are you feeling today?",
+        "Hi there! I'm here to listen. What's on your mind?",
+        "Hey! I'm glad you're here. How can I help you today?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye", "I am leaving"],
+      "responses": [
+        "Take care! Remember, I'm always here if you need to talk.",
+        "Goodbye! Stay positive and take care of yourself.",
+        "Bye! Wishing you a peaceful day ahead."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for helping me"],
+      "responses": [
+        "Happy to help!",
+        "Anytime! I'm glad I could be of service.",
+        "You're very welcome! "
+      ]
+    },
+    {
+      "tag": "anxiety",
+      "patterns": [
+        "I feel anxious",
+        "I am having a panic attack",
+        "My heart is racing",
+        "I feel very nervous",
+        "I can't breathe properly",
+        "I am worried about everything"
+      ],
+      "responses": [
+        "Take a deep breath. Inhale for 4 seconds, hold for 4, and exhale for 4. ",
+        "I'm here with you. Try to name 5 things you can see around you right now to ground yourself.",
+        "It's okay to feel this way. This feeling will pass soon. Just focus on your breath."
+      ]
+    },
+    {
+      "tag": "happy",
+      "patterns": [
+        "I am so happy today",
+        "I had a great day",
+        "Everything is going well",
+        "I'm feeling wonderful",
+        "Life is good"
+      ],
+      "responses": [
+        "That's amazing! I'm so glad to hear that. ",
+        "Keep that energy going! What made your day so special?",
+        "Wonderful! Celebrate these small wins and keep smiling! "
+      ]
+    },
+    {
+      "tag": "sad",
+      "patterns": [
+        "I feel sad",
+        "I want to cry",
+        "I am feeling low",
+        "Nothing is going right",
+        "I feel lonely",
+        "I am depressed"
+      ],
+      "responses": [
+        "I'm sorry you're feeling this way. I'm here to listen. ",
+        "It's okay to not be okay. Do you want to talk about what's bothering you?",
+        "Sending you a virtual hug. You are stronger than you think. "
+      ]
+    },
+    {
+      "tag": "anger",
+      "patterns": [
+        "I am very angry",
+        "I want to scream",
+        "I hate everything right now",
+        "I am so frustrated",
+        "I'm losing my temper",
+        "I am annoyed"
+      ],
+      "responses": [
+        "I understand you're frustrated. Try to step away from the situation for a moment and take 5 deep breaths.",
+        "It's okay to feel angry, but don't let it consume you. Can we talk about what triggered this?",
+        "Count backwards from 10 to 1. Sometimes a little pause helps in managing anger. "
+      ]
+    },
+    {
+      "tag": "sleep",
+      "patterns": [
+        "I can't sleep",
+        "I am having insomnia",
+        "I feel tired but can't sleep",
+        "My sleep schedule is messed up",
+        "I have bad dreams",
+        "I am struggling to fall asleep"
+      ],
+      "responses": [
+        "Try to put away your phone at least 30 minutes before bed. Blue light can disturb sleep. ",
+        "Listening to some white noise or soft music might help you relax.",
+        "Make sure your room is dark and cool. A consistent sleep routine is very important for mental health. "
+      ]
+    }
+  ]
+}
